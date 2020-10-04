@@ -12,7 +12,6 @@ import (
 )
 
 func main() {
-	// env.Parse()
 	l := log.New(os.Stdout, "product-api", log.LstdFlags)
 
 	// create the handlers
